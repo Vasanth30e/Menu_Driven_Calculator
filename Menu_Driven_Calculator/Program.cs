@@ -42,7 +42,7 @@
 
         public static bool Calculator(decimal x, decimal y)
         {
-            Console.WriteLine("\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\nEnter the opertion to perform: ");
+            Console.WriteLine("\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\nEnter the operation to perform: ");
             if(int.TryParse(Console.ReadLine(), out int choice))
             {
                 switch (choice)
